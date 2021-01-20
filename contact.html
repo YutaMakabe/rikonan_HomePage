@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青山学院大学理工軟式野球部/CONTACT</title>
+    <meta name="description" content="青学りこなんへのメールフォーム。SNS(Twitter, Instagram)のアカウントをお持ちでない
+    方はご質問をしてください。練習試合申し込みもこちらからご連絡ください。">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BE7E1SWHET"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-BE7E1SWHET');
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <h1>青山学院大学理工軟式野球部</h1>
+            <script src="js/fadein.js"></script>
+        </div>
+        <nav id="global-nav">
+            <div class="inner">
+                <ul class="nav" class="global-list">
+                    <li class="global-item"><a href="index.html">HOME</a></li>
+                    <li class="has-sub" class="global-item">
+                        <a>活動内容</a>
+                        <ul class="sub">
+                            <li><a href="practiceContent.html">練習内容</a></li>
+                            <li><a href="practiceGame.html">練習試合</a></li>
+                            <li><a href="officialGame.html">公式戦</a></li>
+                        </ul>
+                    </li>
+                    <li class="global-item"><a href="member.html">部員</a></li>
+                    <li class="global-item"><a href="schedule.html">活動予定</a></li>
+                    <li class="global-item"><a href="activityPlace.html">活動場所</a></li>
+                    <li class="has-sub" class="global-item">
+                        <a>入部</a>
+                        <ul class="sub">
+                            <li><a href="applicant.html">メッセージ</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <script src="js/fold.js"></script>
+        <script type="text/javascript" src="js/header_fixed.js"></script>
+    </header>
+    <main>
+        <div id="formWrap">
+            <h3>お問い合わせ</h3>
+            <p>下記フォームに必要事項を入力後、確認ボタンを押してください。</p>
+            <form action="mail.php" method="POST">
+                <table class="formTable">
+                    <tr>
+                        <th>ご用件</th>
+                        <td><select name="ご用件">
+                                <option value="">選択してください</option>
+                                <option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+                                <option value="練習参加希望">練習参加希望</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <th>お名前</th>
+                        <td><input size="20" type="text" name="お名前" /> ※必須</td>
+                    </tr>
+                    <tr>
+                        <th>メールアドレス</th>
+                        <td><input size="30" type="text" name="Email" /> ※必須</td>
+                    </tr>
+                    <tr>
+                        <th>お問い合わせ内容<br /></th>
+                        <td><textarea name="お問い合わせ内容" cols="50" rows="5"></textarea></td>
+                    </tr>
+                </table>
+                <p align="center">
+                    <input type="submit" value="　 確認 　" />　<input type="reset" value="リセット" />
+                </p>
+            </form>
+            <p>※IPアドレスを記録しております。いたずらや嫌がらせ等はご遠慮ください</p>
+        </div>
+    </main>
+    <footer>
+        <div class="creative_commons">
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス"
+                    style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
+            この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">クリエイティブ・コモンズ 表示 - 非営利 4.0 国際
+                ライセンス</a>の下に提供されています。
+        </div>
+    </footer>
+</body>
+
+</html>
