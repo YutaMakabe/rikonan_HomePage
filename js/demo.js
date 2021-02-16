@@ -3,8 +3,6 @@
 var events = [
     {'Date': new Date(2020, 11, 23), 'Title': '練習'},
     {'Date': new Date(2021, 0, 7), 'Title': '紅白戦'},
-    {'Date': new Date(2021, 1, 15), 'Title': '練習'},
-    {'Date': new Date(2021, 1, 17), 'Title': '練習'},
     {'Date': new Date(2021, 1, 24), 'Title': '練習'},
     {'Date': new Date(2021, 2, 3), 'Title': '練習'},
     {'Date': new Date(2021, 2, 10), 'Title': '練習'},

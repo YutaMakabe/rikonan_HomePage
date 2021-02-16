@@ -1,59 +1,52 @@
-body{
+body {
     background-image: url("./kazaguruma.svg");
 }
 
-.head{
+.head {
     background-image: url("../image/band1.jpg");
     background-size: 100%;
     width: 101.3%;
     margin: -22px -8px;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 30px 0;
     font-family: fantasy;
     font-size: 1.5em;
-    text-shadow    : 
-       2px  2px 1px rgb(245, 236, 236),
-      -2px  2px 1px rgb(245, 236, 236),
-       2px -2px 1px rgb(245, 236, 236),
-      -2px -2px 1px rgb(245, 236, 236),
-       2px  0px 1px rgb(245, 236, 236),
-       0px  2px 1px rgb(245, 236, 236),
-      -2px  0px 1px rgb(245, 236, 236),
-       0px -2px 1px rgb(245, 236, 236);        /* 文字の影 */
+    text-shadow: 2px 2px 1px rgb(245, 236, 236), -2px 2px 1px rgb(245, 236, 236), 2px -2px 1px rgb(245, 236, 236), -2px -2px 1px rgb(245, 236, 236), 2px 0px 1px rgb(245, 236, 236), 0px 2px 1px rgb(245, 236, 236), -2px 0px 1px rgb(245, 236, 236), 0px -2px 1px rgb(245, 236, 236);
+    /* 文字の影 */
 }
 
-.kaushan{
+.kaushan {
     font-family: 'Kaushan Script', cursive;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-a{
+a {
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     color: #0000EE;
 }
 
-.nav{
-    text-align:center;
+.nav {
+    text-align: center;
     display: flex;
     width: 101.3%;
     margin: 0 -8px;
     background-color: #fff;
 }
 
-.nav > li{
+.nav>li {
     position: relative;
     width: 20%;
     border-right: 1px solid #004b83;
@@ -61,11 +54,11 @@ a:visited{
     border-bottom: 1px solid #004b83;
 }
 
-.nav > li:first-child{
+.nav>li:first-child {
     border-left: 1px solid #004b83;
 }
 
-.nav a{
+.nav a {
     display: block;
     line-height: 1;
     z-index: 1;
@@ -75,13 +68,13 @@ a:visited{
     text-align: center;
 }
 
-.nav a:hover{
+.nav a:hover {
     background-color: #004b83;
     opacity: 1;
     color: white;
 }
 
-.sub{
+.sub {
     display: none;
     position: absolute;
     left: 0;
@@ -90,7 +83,7 @@ a:visited{
     z-index: 3;
 }
 
-.sub > li > a{
+.sub>li>a {
     font-size: 14px;
     color: #fff;
     line-height: 1;
@@ -98,32 +91,32 @@ a:visited{
     border-bottom: 1px solid #004b83;
 }
 
-.sub > li > a:hover{
+.sub>li>a:hover {
     background-color: #004b83;
     opacity: 1;
 }
 
-.red{
+.red {
     color: red;
 }
 
-.backBoard{
+.backBoard {
     background-color: rgb(254, 255, 255);
     padding: 20px;
 }
 
-main{
+main {
     background-image: url("../css/Subtle-Prism.svg");
     margin: 0 -8px;
 }
 
-footer{ 
+footer {
     width: 100%;
     max-width: 100%;
     height: auto;
 }
 
-.creative_commons{
+.creative_commons {
     width: 80%;
     margin: 0 10%;
     padding: 10px;
@@ -140,41 +133,43 @@ footer{
     top: 0;
 }
 
-@media(max-width: 800px){
-    .head{
+.video {
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+    text-align: center;
+}
+
+@media(max-width: 800px) {
+    .head {
         background-image: url("../image/band1_1.jpg");
         width: 102%;
         margin: -22px -8px;
     }
-
-    .nav{
+    .nav {
         width: 102%;
         margin: 0 -8px;
     }
 }
 
-@media(max-width: 600px){
-    .sub > li > a{
+@media(max-width: 600px) {
+    .sub>li>a {
         font-size: 10px;
         line-height: 1.5;
     }
-
-    .head{
+    .head {
         background-image: url("../image/band1_3.jpg");
         width: 104%;
         margin: -22px -8px;
     }
-      
-    .nav{
+    .nav {
         width: 104%;
         margin: 0 -8px;
     }
-
-    .creative_commons{
+    .creative_commons {
         font-size: 6px;
     }
-
-    .creative_commons img{
+    .creative_commons img {
         width: 44px;
         height: 14px;
     }
