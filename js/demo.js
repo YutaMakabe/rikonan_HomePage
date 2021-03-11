@@ -3,10 +3,6 @@
 var events = [
     {'Date': new Date(2020, 11, 23), 'Title': '練習'},
     {'Date': new Date(2021, 0, 7), 'Title': '紅白戦'},
-    {'Date': new Date(2021, 2, 10), 'Title': '練習'},
-    {'Date': new Date(2021, 2, 17), 'Title': '練習'},
-    {'Date': new Date(2021, 2, 19), 'Title': '練習試合'},
-    {'Date': new Date(2021, 2, 20), 'Title': '公式戦'},
     {'Date': new Date(2021, 2, 22), 'Title': '練習'},
     {'Date': new Date(2021, 2, 24), 'Title': '練習'},
     {'Date': new Date(2021, 2, 27), 'Title': '公式戦'},
@@ -20,7 +16,11 @@ var events = [
     {'Date': new Date(2021, 3, 21), 'Title': '練習'},
     {'Date': new Date(2021, 3, 28), 'Title': '練習'},
     {'Date': new Date(2021, 4, 1), 'Title': '公式戦'},
-    {'Date': new Date(2021, 4, 2), 'Title': '公式戦'},
+    {'Date': new Date(2021, 4, 5), 'Title': '練習'},
+    {'Date': new Date(2021, 4, 12), 'Title': '練習'},
+    {'Date': new Date(2021, 4, 15), 'Title': '練習'},
+    {'Date': new Date(2021, 4, 19), 'Title': '練習'},
+    {'Date': new Date(2021, 4, 26), 'Title': '練習'},
 ];
 
 var settings = {};
