@@ -5,7 +5,6 @@ var events = [
     {'Date': new Date(2021, 0, 7), 'Title': '紅白戦'},
     {'Date': new Date(2021, 2, 22), 'Title': '練習'},
     {'Date': new Date(2021, 2, 24), 'Title': '練習'},
-    {'Date': new Date(2021, 2, 27), 'Title': '公式戦'},
     {'Date': new Date(2021, 2, 29), 'Title': '練習'},
     {'Date': new Date(2021, 2, 31), 'Title': '練習'},
     {'Date': new Date(2021, 3, 4), 'Title': '練習'},
