@@ -24,7 +24,7 @@ var events = [
     {'Date': new Date(2021, 5, 2), 'Title': '練習'},
     {'Date': new Date(2021, 5, 6), 'Title': '練習試合'},
     {'Date': new Date(2021, 5, 9), 'Title': '練習'},
-    {'Date': new Date(2021, 5, 12), 'Title': '練習'},
+    {'Date': new Date(2021, 5, 12), 'Title': '練習試合'},
     {'Date': new Date(2021, 5, 16), 'Title': '練習'},
     {'Date': new Date(2021, 5, 23), 'Title': '練習'},
     {'Date': new Date(2021, 5, 30), 'Title': '練習'},
