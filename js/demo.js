@@ -36,7 +36,10 @@ var events = [
     {'Date': new Date(2021, 6, 17), 'Title': '練習'},
     {'Date': new Date(2021, 6, 21), 'Title': '練習'},
     {'Date': new Date(2021, 6, 28), 'Title': '練習'},
-    {'Date': new Date(2021, 6, 31), 'Title': '練習'}
+    {'Date': new Date(2021, 6, 31), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 7), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 9), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 14), 'Title': '練習'}
 ];
 
 var settings = {};
