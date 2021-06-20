@@ -37,9 +37,19 @@ var events = [
     {'Date': new Date(2021, 6, 21), 'Title': '練習'},
     {'Date': new Date(2021, 6, 28), 'Title': '練習'},
     {'Date': new Date(2021, 6, 31), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 2), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 4), 'Title': '練習'},
     {'Date': new Date(2021, 7, 7), 'Title': '練習'},
     {'Date': new Date(2021, 7, 9), 'Title': '練習'},
-    {'Date': new Date(2021, 7, 14), 'Title': '練習'}
+    {'Date': new Date(2021, 7, 11), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 14), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 16), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 18), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 20), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 23), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 25), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 27), 'Title': '練習'},
+    {'Date': new Date(2021, 7, 30), 'Title': '練習'}
 ];
 
 var settings = {};
