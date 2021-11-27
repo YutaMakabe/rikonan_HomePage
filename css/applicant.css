@@ -73,10 +73,6 @@ img{
   width: 15%;
 }
 
-.right{
-  float: right;
-}
-
 @media(max-width: 600px){
   .icon{
     display: none;

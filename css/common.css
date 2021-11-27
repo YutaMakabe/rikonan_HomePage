@@ -116,6 +116,15 @@ footer {
     height: auto;
 }
 
+.right{
+    float: right;
+}
+
+.image{
+    width: 80%;
+    margin: 20px auto;
+}
+
 .creative_commons {
     width: 80%;
     margin: 0 10%;

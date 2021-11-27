@@ -51,7 +51,26 @@ var events = [
     {'Date': new Date(2021, 8, 15), 'Title': '練習'},
     {'Date': new Date(2021, 8, 18), 'Title': '練習'},
     {'Date': new Date(2021, 8, 22), 'Title': '練習'},
-    {'Date': new Date(2021, 8, 29), 'Title': '公式戦'}
+    {'Date': new Date(2021, 8, 29), 'Title': '公式戦'},
+    {'Date': new Date(2021, 9, 2), 'Title': '練習'},
+    {'Date': new Date(2021, 9, 6), 'Title': '練習'},
+    {'Date': new Date(2021, 9, 13), 'Title': '練習'},
+    {'Date': new Date(2021, 9, 16), 'Title': '公式戦'},
+    {'Date': new Date(2021, 9, 20), 'Title': '練習'},
+    {'Date': new Date(2021, 9, 23), 'Title': '公式戦'},
+    {'Date': new Date(2021, 9, 27), 'Title': '練習'},
+    {'Date': new Date(2021, 9, 29), 'Title': '練習'},
+    {'Date': new Date(2021, 9, 30), 'Title': '公式戦'},
+    {'Date': new Date(2021, 10, 1), 'Title': '練習'},
+    {'Date': new Date(2021, 10, 3), 'Title': '公式戦'},
+    {'Date': new Date(2021, 10, 10), 'Title': '練習'},
+    {'Date': new Date(2021, 10, 13), 'Title': '練習'},
+    {'Date': new Date(2021, 10, 17), 'Title': '練習'},
+    {'Date': new Date(2021, 10, 20), 'Title': '東日本'},
+    {'Date': new Date(2021, 10, 21), 'Title': '東日本'},
+    {'Date': new Date(2021, 10, 22), 'Title': '東日本'},
+    {'Date': new Date(2021, 10, 23), 'Title': '東日本'},
+    {'Date': new Date(2021, 10, 24), 'Title': '東日本'},
 ];
 
 var settings = {};
